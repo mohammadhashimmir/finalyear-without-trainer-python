@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(48, 46, 46);
+            background-color:#4ca3dd8a;  
+            /* background: linear-gradient(318deg, #cb05051f 60%, #5fc9f5cc 55%);  */
+        }
+        .container1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+        hr{
+            width: 80%;
+        }
+        h2{
+            font-size: 20px;
+        }
+        .contact-items{
+            display: flex;
+            margin: 30px auto;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+        .customer-care,.write-us,.sales-market{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 28%;
+            margin: 30px auto;
+            padding: 35px 15px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+            
+        }
+        .customer-care{
+            height: 250px;
+            border: 3px solid #555;
+            transition: transform 0.5s;
+            border-radius: 57px;
+        }
+        .write-us{
+            height: 250px;
+            border: 3px solid #555;
+            transition: transform 0.5s;
+            border-radius: 57px;
+        }
+        .sales-market{
+            height: 250px;
+            border: 3px solid #555;
+            transition: transform 0.5s;
+            border-radius: 57px;
+        }
+        p{
+            font-size: 15px;
+        }
+        button{
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+        button:hover{
+            color: gray;
+        }
+        #cust-care{
+            background: green;
+
+            box-shadow: 0 0 5px black;
+        }
+        #write{
+            background: rgb(187, 15, 15);
+
+            box-shadow: 0 0 5px black;
+        }
+        #sales{
+            background:#f5715f;
+            box-shadow: 0 0 5px black;
+        }
+        a{
+            font-size: 16px;
+        }
+        .customer-care a{
+            color: #f5715f;
+            text-shadow: 0 0 2px rgba(73, 129, 80, 0.637);
+        }
+        .sales-market a{
+            color: #f5715f;
+            text-shadow: 0 0 2px rgba(76, 62, 158, 0.637);
+        }
+        .testimonial .customer-care:hover{
+            transform: translateY(-10px);
+        }
+        .testimonial .write-us:hover{
+            transform: translateY(-10px);
+        }
+        .testimonial .sales-market:hover{
+            transform: translateY(-10px);
+        }
+        a{
+            /* color:#fff;  */
+        }
+        p{
+            /* color:#fff;  */
+        }
+    </style>
+</head>
+<body style="background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(static/images/nikita-vantorin-0o6Lqin4nNE-unsplash.jpg); background-size: cover; background-position: center;">
+<div class="header1">
+        <div class="container">
+         <div class="navbar">
+           <div class="logo">
+               <a href="index.html" ><img src="./images/logo.png" width="125px"></a>
+           </div>
+           <nav>
+               <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detect.html">Detect Face Shape</a></li>
+                <li><a href="products.html">Salons</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+               </ul>
+           </nav>
+             <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+        </div>
+</div>
+<div class="testimonial">
+    <div class="container">
+        <h1 class="title">Contact Us</h1>
+
+<!--        <h2>Have any questions? We'd love to hear from you</h2>-->
+        <div class="contact-items">
+            <div class="customer-care">
+                <h3 >Customer Care</h3><br>
+                <p>Our Support team is spread all over the world to give you fast response</p><br>
+                <a href="gmail.com/aihairstylingproject@gmail.com">aihairstylingproject@gmail.com</a><br>
+                <a href="#">Frequently asked Questions&#63</a>
+            </div>
+            <div class="write-us">
+                <h3>Follow Us On</h3><br>
+
+                    <ul class="social">
+                        <li style="margin-bottom:10px;"><a href="https://www.facebook.com/AI-Hairstyling-110815444758311" >Facebook</a></li>
+                        <li style="margin-bottom:10px;"><a href="Gmail.com/aihairstylingproject@gmail.com">Gmail</a></li>
+                        <li style="margin-bottom:10px;"><a href="https://twitter.com/AiHairstyling">Twitter</a></li>
+                        <li style="margin-bottom:10px;"><a href="https://www.youtube.com/channel/UCQDdNb4vxIbFThSCMJm7-vw">Youtube</a></li>
+
+                    </ul>
+            </div>
+            <div class="sales-market">
+                <h3> Call Us</h3><br>
+                <p>Get in touch with our developers</p><br>
+                <a href="tel:8665562570">&#9742 Call us at 866-xxx-2570</a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+ <!---- footer ------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <a href="index.html" ><img src="./images/logo.png" width="150px" ></a>
+                    <p>Our Purpose Is To Make You Look <br> Perfect in every occasion. </p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="news.html"> News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/AI-Hairstyling-110815444758311" >Facebook</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCSlVHjsZbpvbxmZvJNkxSCNJfMXpjzGzVRpqhXfGGBVNMncSCGqVcCtFmQqjSXJDDGbf">Gmail</a></li>
+                        <li><a href="https://twitter.com/AiHairstyling">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCQDdNb4vxIbFThSCMJm7-vw">Youtube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; Copyright 2021 - AI Hairstyling</p>
+        </div>
+    </div>
+<script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight ="200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight ="0px";
+                }
+        }
+        var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 3){
+        counter = 1;
+      }
+    }, 5000);
+
+    </script>
+</body>
+</html>

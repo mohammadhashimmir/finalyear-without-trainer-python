@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salons - AI Hairstyling</title>
+    <link rel="stylesheet" href="./styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background: linear-gradient(
+320deg, #fcfcfc00 60%, #4ca3dd8a 55%);">
+<!---------- Header ----------------->
+     <div class="container">
+      <div class="navbar">
+        <div class="logo">
+            <a href="home"><img src="./images/logo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detect.html">Detect Face Shape</a></li>
+                <li><a href="products.html">Salons</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        
+        <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+     </div> 
+     <!-------- All Products -------->
+        <div class="small-container">
+
+            <div class="row row-2">
+               <h2 >All Salons</h2>
+               <select>
+                   <option>Default</option>
+                   <option>Sort By Price</option>
+                   <option>Sort By Popularity</option>
+                   <option>Sort By Rating</option>
+                   <option>Sort By Sale</option>
+               </select> 
+            </div>
+
+
+            <div class="row">
+                <div class="col-4" style="padding-right:35px;">
+                    <a href="productdetails.html"><img src="./images/salon1.jpg" width="250px" height="220px"></a>
+                    <a href="productdetails.html"><h4>FK Makeover</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00-$400.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/salon5.jpg" width="200px" height="200px">
+                    <h4>Sakib Hair Studio</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4">
+                    <img src="./images/salon6.jpg" width="200px" height="200px">
+                    <h4>MAKEOVER SALON & ACADEMY</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4" style="margin-top:20px;">
+                    <img src="./images/salon7.jpg" width="200px" height="200px">
+                    <h4>Braun&Beauty Unisex Salon Nspa</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/salon8.jpg" width="200px" height="200px">
+                    <h4>The Bounce Salon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/salon9.jpg" width="200px" height="200px">
+                    <h4>Rk Beauty Studio</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4">
+                    <img src="./images/salon10.jpg" width="200px" height="200px">
+                    <h4>Lashz Salon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4">
+                    <img src="./images/salon3.jpg" width="200px" height="200px">
+                    <h4>Meraki Pro Unisex Salon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images/salon2.jpg" width="200px" height="200px">
+                    <h4>Color Box</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./images/salon4.jpg" width="200px" height="200px">
+                    <h4>Style And Streax Unisex Salon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4">
+                    <img src="./images/salon11.jpg" width="200px" height="200px">
+                    <h4>Style Station</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div><div class="col-4">
+                    <img src="./images/salon12.jpg" width="200px" height="200px">
+                    <h4>Flix Professional Salon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$5.00-$150.00</p>
+                </div>
+            </div>
+
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594</span>
+            </div>
+        </div>
+
+
+   <!---- footer ------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <a href="index.html" ><img src="./images/logo.png" width="150px" ></a>
+                    <p>Our Purpose Is To Make You Look <br> Perfect in every occasion. </p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="news.html"> News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/AI-Hairstyling-110815444758311" >Facebook</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCSlVHjsZbpvbxmZvJNkxSCNJfMXpjzGzVRpqhXfGGBVNMncSCGqVcCtFmQqjSXJDDGbf">Gmail</a></li>
+                        <li><a href="https://twitter.com/AiHairstyling">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCQDdNb4vxIbFThSCMJm7-vw">Youtube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; Copyright 2021 - AI Hairstyling</p>
+        </div>
+    </div>
+    <!-----------js for toggle menu------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight ="200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight ="0px";
+                }
+        }
+    </script>
+</body>
+</html>
